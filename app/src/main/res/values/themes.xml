@@ -1,0 +1,15 @@
+<resources>
+    <style name="Theme.JHC" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/jhc_navy</item>
+        <item name="colorPrimaryDark">@color/jhc_navy_dark</item>
+        <item name="android:statusBarColor">@color/jhc_navy_dark</item>
+        <item name="android:windowBackground">@color/jhc_white</item>
+    </style>
+
+    <!-- shown while the app starts: white screen with the JHC icon -->
+    <style name="Theme.JHC.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/jhc_white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_icon</item>
+        <item name="postSplashScreenTheme">@style/Theme.JHC</item>
+    </style>
+</resources>
